@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "hollowdread",
+  "version": "${version}",
+  "name": "Hollow Dread",
+  "description": "Mod de terror psicológico: um sistema de medo, eventos paranormais e o Espreitador, que só se move quando você não está olhando.",
+  "authors": ["Você"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.hollowdread.HollowDread"],
+    "client": ["com.hollowdread.HollowDreadClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
